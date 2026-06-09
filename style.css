@@ -1,0 +1,51 @@
+:root{
+    --cor-primaria:#c13dea;
+    --cor-secundaria:#fff0f0;
+    --espacamento:16px;
+    }
+
+    /* Reset Simple */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color: rgba(206, 137, 255, 0.473);
+    
+    }
+
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: var(--espacamento);
+        background:var(--cor-primaria);
+        color: rgb(255, 255, 255);
+    }   
+
+    .grid{
+
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--espacamento);
+    padding: var(--espacamento);    
+
+    }
+
+.card{
+
+background-color: rgb(248, 255, 199);
+padding: 20px;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
